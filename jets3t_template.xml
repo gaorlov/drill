@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+  <property>
+    <name>fs.s3.awsAccessKeyId</name>
+    <value>{access_key}</value>
+  </property>
+
+  <property>
+    <name>fs.s3.awsSecretAccessKey</name>
+    <value>{secret_key}</value>
+  </property>
+
+  <property>
+    <name>fs.s3a.connection.maximum</name>
+    <value>100</value>
+  </property>
+  
+  <property>
+    <name>fs.s3a.awsAccessKeyId</name>
+    <value>{access_key}</value>
+  </property>
+
+  <property>
+    <name>fs.s3a.awsSecretAccessKey</name>
+    <value>{secret_key}</value>
+  </property>
+
+  <property>
+    <name>fs.s3n.awsAccessKeyId</name>
+    <value>{access_key}</value>
+  </property>
+
+  <property>
+    <name>fs.s3n.awsSecretAccessKey</name>
+    <value>{secret_key}</value>
+  </property>
+</configuration>
